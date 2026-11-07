@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mazing Contest Privacy Policy</title><link rel="stylesheet" href="style.css"></head>
+<body><header><nav><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html">Support</a></nav></header><main>
+<h1>Mazing Contest Privacy Policy</h1>
+<p>Effective date: 7 November 2026</p>
+<p>Developer: Sean Smith<br>
+Contact: <a href="mailto:seaniksmith@gmail.com">seaniksmith@gmail.com</a></p>
+<p>This policy explains what information Mazing Contest ("the game", Android package <code>com.mazing.contest</code>) handles, who handles it, and the choices you have. It is written in plain language. It is not legal advice and makes no promise of compliance with any particular law beyond the statements below.</p>
+<h2>Summary</h2>
+<ul>
+<li>The game is solo. There are no accounts, no sign-in, no chat and no multiplayer.</li>
+<li>Your progress is stored only on your device, in a save file. I do not receive it.</li>
+<li>The game is free. It can show optional rewarded ads (you choose to watch them) and offers a one-time purchase that removes ads.</li>
+<li>Ads are provided by third-party SDKs that may collect device and advertising data, including your IP address, device information, the Android advertising ID and ad interactions. Where you are asked for consent, the game shows a consent form first.</li>
+<li>If you buy Remove ads, the game does not start the ad SDKs and does not show the consent form.</li>
+<li>I run no crash-reporting or analytics service of my own. The third-party components below send their own diagnostics.</li>
+<li>The game is intended for people aged 13 and over. It is not directed to children.</li>
+</ul>
+<h2>Data stored on your device</h2>
+<p>The game keeps a save file on your device. It holds your level progress and medals, your settings (such as sound and haptics), and the state of the optional features: unlocks, reward credits you have earned but not used, and a record that you bought the remove-ads purchase. There is no account, and this file is not uploaded by the game to me or to anyone. Uninstalling the game, or clearing its storage in Android settings, deletes it. If you use Android backup, Google may include app data in your own device backup under your Google account; that is governed by Google and your device settings.</p>
+<h2>Data collected by third parties</h2>
+<p>I, the developer, do not run a server for the game and do not collect personal information myself. The following third-party components run inside the game. They act under their own privacy policies. The exact items are decided by each vendor and can change with SDK updates, so the vendor links below are the authoritative source.</p>
+<h3>Ads: Unity LevelPlay, Unity Ads and Google AdMob</h3>
+<ul>
+<li>What: rewarded ads are served through Unity LevelPlay (formerly ironSource), a mediation service that requests ads from ad networks. This game uses the Unity Ads and Google AdMob networks (the Google Mobile Ads SDK) and LevelPlay's own ironSource network through LevelPlay. LevelPlay's Ad Quality SDK also runs with it and monitors the ads shown, to detect unsafe or low-quality ads.</li>
+<li>Data these SDKs process: your IP address (and the approximate location it implies), the Android advertising ID and app set ID (when you have not reset or opted out of them), device and installation identifiers, device and OS information (model, OS version, language, screen, network type), app and SDK version, ad interaction data (ad requested, shown, taps and video views, completed, clicked), and diagnostic and performance information (such as app launch time, hang rate and SDK errors). For Unity Ads this can also include purchase history and, if I enable it, app usage times.</li>
+<li>Android permissions: the game declares the advertising ID permission, and permissions used by the ad SDKs to read network state and basic phone state and to use Android's Privacy Sandbox ad APIs. It does not request location, contacts, camera, microphone or storage permissions.</li>
+<li>Purposes: serving and measuring ads, analytics, limiting fraud and keeping ads secure, and, if you consent, personalising ads.</li>
+<li>Sharing: this data is sent to Unity, Google and their advertising partners. Depending on your consent and region, ads may be personalised or non-personalised.</li>
+<li>When it runs: the ad SDKs start only in builds that have ads switched on, only after the consent step below has run where it is required, and not at all if you own Remove ads. Ads are never forced; every ad is one you choose to watch for a reward.</li>
+</ul>
+<h3>Consent: Google User Messaging Platform (UMP)</h3>
+<ul>
+<li>What: in regions where consent is required (such as the EEA, UK and some US states), the game shows a Google UMP consent form on launch. UMP stores your choice on your device in the standard IAB consent formats, so the ad SDKs can honour it. Google contacts its servers to get the form's configuration.</li>
+<li>Data: your consent choices and whether a privacy options entry is required. Google does not publish a list of other data for this SDK.</li>
+<li>If you refuse, the game may show non-personalised ads or no ads, depending on what the ad networks permit.</li>
+<li>If you own Remove ads, the game skips the form and does not contact the ad SDKs. The Privacy options row stays available.</li>
+</ul>
+<h3>Purchases: Google Play Billing and Unity Purchasing</h3>
+<ul>
+<li>What: the remove-ads purchase is a one-time in-app purchase handled by Google Play. Google processes your payment details under its own terms. I never see your card or payment information. The game uses Unity Purchasing (with Unity Services Core) to talk to Google Play Billing.</li>
+<li>Data I receive back: that the purchase exists, via a purchase token and order identifier from Google Play, so the game can unlock the feature and restore it if you reinstall.</li>
+<li>Data Unity can process: Unity Purchasing is run by Unity as a processor. Unity describes purchase and transaction information, device and installation identifiers, device model, OS, language and locale, and the approximate location (country) it derives from your IP address. Unity keeps IAP service logs for 30 days and transaction data for as long as it needs to run the service.</li>
+</ul>
+<h3>Google Play services and diagnostics</h3>
+<ul>
+<li>The game runs on Google Play services components that handle device identifiers (such as the advertising ID and app set ID), network connections and Google's logging for Play services and billing. These act under Google's privacy policy.</li>
+<li>I run no crash-reporting service, analytics SDK or Unity Cloud project for this game, so I do not receive crash logs from the game itself. If you have chosen to share usage and diagnostics data with Google, Google Play may give me aggregated crash and performance statistics (Android vitals). The ad and purchase SDKs above send their own diagnostics to their vendors.</li>
+<li>If this changes (for example, I add a crash-reporting service), I will update this policy first.</li>
+</ul>
+<h2>Consent and how to change it</h2>
+<p>On first launch, where required and unless you own Remove ads, you will see a consent form. You can change your choice at any time in the game under Settings &gt; Privacy options. That row appears in regions where a privacy options entry is required, including if you own Remove ads. Ad SDKs that have already started cannot be switched off until you close and reopen the game. You can also reset your Android advertising ID or opt out of ad personalisation in Android settings (Settings &gt; Google &gt; Ads, or the equivalent on your device). If a choice changes, the game stops using an ad that was already loaded and loads the next one under the new choice.</p>
+<h2>Retention</h2>
+<p>I keep no copy of your data, so I have nothing to retain or delete on my side. For the third parties, retention is set by each vendor and I cannot shorten it:</p>
+<ul>
+<li>Unity LevelPlay, Ad Quality, Unity Ads and Unity Purchasing: governed by Unity's privacy policy and its product data pages. For Unity Purchasing, Unity states a 30-day log retention.</li>
+<li>Google AdMob (Google Mobile Ads SDK), Google UMP and Google Play services: governed by Google's privacy policy and the AdMob and UMP data disclosures.</li>
+<li>Google Play Billing: governed by Google Play's terms and privacy policy.</li>
+</ul>
+<p>To ask a vendor about access or deletion, use the contact route in their policy. You can also reset your advertising ID to break the link to past ad data. If you contact me, I will tell you what I can and cannot do.</p>
+<h2>Children</h2>
+<p>Mazing Contest is intended for people aged 13 and over and is not directed to children under 13. The game does not knowingly collect personal information from children under 13. If you believe a child has used the game, contact me and I will help you with the vendors above.</p>
+<h2>Your choices and rights</h2>
+<p>Depending on where you live, you may have rights over personal information held about you, such as access, correction, deletion, or objection to ad personalisation. Google states that you can reset your advertising ID in Android settings, and Unity Ads and LevelPlay state they accept deletion requests. Because I hold no personal information, requests are usually to the vendors above. You can email me and I will point you to the right one.</p>
+<h2>Changes to this policy</h2>
+<p>If the game's data practices change (for example, a new SDK), I will update this policy and the effective date before the change ships.</p>
+<h2>Contact</h2>
+<p>Sean Smith, <a href="mailto:seaniksmith@gmail.com">seaniksmith@gmail.com</a></p>
+<h2>Sources</h2>
+<p>Vendor disclosures this policy is based on (check these for current detail):</p>
+<ul>
+<li>Unity privacy policy: <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+<li>Unity LevelPlay and Unity Ads privacy policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
+<li>Unity Ads Google Play data safety: <a href="https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety">https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety</a></li>
+<li>LevelPlay Google Play data safety: <a href="https://docs.unity.com/grow/levelplay/platform/legal-resources/google-data-safety-questionnaire">https://docs.unity.com/grow/levelplay/platform/legal-resources/google-data-safety-questionnaire</a></li>
+<li>Unity Purchasing privacy overview: <a href="https://docs.unity.com/en-us/iap/privacy-and-consent/overview">https://docs.unity.com/en-us/iap/privacy-and-consent/overview</a></li>
+<li>Unity Purchasing Google Play data safety: <a href="https://docs.unity.com/en-us/iap/privacy-and-consent/google-play-data-safety">https://docs.unity.com/en-us/iap/privacy-and-consent/google-play-data-safety</a></li>
+<li>Google Mobile Ads SDK data disclosure: <a href="https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure">https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure</a></li>
+<li>Google User Messaging Platform: <a href="https://developers.google.com/admob/android/privacy">https://developers.google.com/admob/android/privacy</a></li>
+<li>How Google uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+<li>Google privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Google Play Billing and Play terms: <a href="https://play.google.com/about/play-terms/">https://play.google.com/about/play-terms/</a></li>
+</ul>
+</main><footer>Mazing Contest by Sean Smith</footer></body></html>

@@ -1,0 +1,9 @@
+body{margin:0;font:18px/1.6 system-ui,sans-serif;color:#1c1c1e;background:#fafaf7}
+header,main,footer{max-width:44rem;margin:0 auto;padding:0 1rem}
+nav{padding:1rem 0;border-bottom:1px solid #ddd}
+nav a{margin-right:1.2rem;font-weight:600}
+nav a[aria-current]{text-decoration:none;color:#1c1c1e}
+a{color:#0b5cad;overflow-wrap:anywhere}
+h1{line-height:1.2}h2{margin-top:2rem}
+code{background:#eee;padding:0 .25em;border-radius:3px}
+footer{padding:2rem 1rem;color:#666;font-size:.9rem}
